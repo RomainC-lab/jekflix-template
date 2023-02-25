@@ -1,3 +1,4 @@
+formspree_form_id: formspree_form_id
 name: Jekflix
 title: Jekflix | A blog theme for Jekyll
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
@@ -8,7 +9,8 @@ tags:
   - jekyll
   - theme
   - netlify
-show_hero: true
+show_hero: false
+paginate: -1
 menu:
   - title: Home
     url: /
@@ -18,9 +20,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
+  - url: /tags
+    title: Tags
 email: youremail@test.com
-# See: https://disqus.com/
 disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
